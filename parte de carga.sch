@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -8972,9 +8972,11 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
-<part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1"/>
-<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1"/>
-<part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1"/>
+<part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="22uF">
+<attribute name="POPULARITY" value="22uf"/>
+</part>
+<part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="22uf"/>
+<part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="0.1uF"/>
 <part name="C10" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="0.1uF"/>
 <part name="C11" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="0.1uF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8991,12 +8993,12 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.6k"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.2k"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22k"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="12k"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="560k"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="56k"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="680"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15K"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="D1" library="LED" library_urn="urn:adsk.eagle:library:22900745" deviceset="CHIP-FLAT-G" device="_0603-0.35MM" package3d_urn="urn:adsk.eagle:package:24294786/3"/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-1" device="" package3d_urn="urn:adsk.eagle:package:8337/1"/>
@@ -9010,6 +9012,19 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <part name="IC2" library="ESP32-S3-WROOM-1-N16R2" deviceset="ESP32-S3-WROOM-1-N16R2" device=""/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC3" library="LMV321AIDCKR" deviceset="LMV321AIDCKR" device=""/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="5.6K"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="0.47uF"/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="0.1uF"/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
+<part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/5" package3d_urn="urn:adsk.eagle:package:5407/1" value="22uF">
+<attribute name="POPULARITY" value="22uf"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -9299,6 +9314,45 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <instance part="GND19" gate="1" x="-284.48" y="198.12" smashed="yes">
 <attribute name="VALUE" x="-287.02" y="195.58" size="1.778" layer="96"/>
 </instance>
+<instance part="IC3" gate="G$1" x="-112.395" y="-10" smashed="yes">
+<attribute name="NAME" x="-104.775" y="-1.745" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-105.41" y="-4.285" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="-135.255" y="-30.48" smashed="yes">
+<attribute name="NAME" x="-139.065" y="-28.9814" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-139.065" y="-33.782" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="-130.175" y="-20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="-131.6736" y="-24.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-126.873" y="-24.13" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C1" gate="G$1" x="-98.425" y="4.445" smashed="yes" rot="R270">
+<attribute name="NAME" x="-98.044" y="2.921" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-103.124" y="2.921" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND20" gate="1" x="-200.66" y="-36.83" smashed="yes">
+<attribute name="VALUE" x="-203.2" y="-39.37" size="1.778" layer="96"/>
+</instance>
+<instance part="GND21" gate="1" x="-124.46" y="-19.05" smashed="yes">
+<attribute name="VALUE" x="-127" y="-21.59" size="1.778" layer="96"/>
+</instance>
+<instance part="C3" gate="G$1" x="-131.445" y="0.3175" smashed="yes">
+<attribute name="NAME" x="-129.921" y="0.6985" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-129.921" y="-4.3815" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="-187.96" y="-5.08" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-186.055" y="-0.381" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="-132.08" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-130.175" y="17.399" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V9" gate="G$1" x="-71.12" y="-2.8575" smashed="yes">
+<attribute name="VALUE" x="-73.66" y="-7.9375" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C9" gate="G$1" x="-265.303" y="-4.699" smashed="yes" rot="R90">
+<attribute name="NAME" x="-265.684" y="-3.175" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-260.604" y="-3.175" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9428,6 +9482,8 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <pinref part="IC5" gate="G$1" pin="V-"/>
 <wire x1="-200.66" y1="-34.29" x2="-200.66" y2="-18.415" width="0.1524" layer="91"/>
 <wire x1="-200.66" y1="-18.415" x2="-176.53" y2="-18.415" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<junction x="-200.66" y="-34.29"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -9470,6 +9526,12 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <pinref part="SV2" gate="G$1" pin="1"/>
 <wire x1="-284.48" y1="200.66" x2="-284.48" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="203.2" x2="-292.1" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="V-"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="-112.395" y1="-12.54" x2="-124.46" y2="-12.54" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-12.54" x2="-124.46" y2="-16.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+BATT" class="0">
@@ -9711,19 +9773,15 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <net name="N$47" class="0">
 <segment>
 <pinref part="IC15" gate="G$1" pin="OUT"/>
-<wire x1="-274.32" y1="-5.08" x2="-251.46" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="-5.08" x2="-248.285" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-287.655" y1="-5.08" x2="-274.32" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-248.285" y1="-9.8425" x2="-248.285" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="-297.815" y1="12.7" x2="-274.32" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-274.32" y1="12.7" x2="-274.32" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-274.32" y="-5.08"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="-226.695" y1="0" x2="-251.46" y2="0" width="0.1524" layer="91"/>
-<wire x1="-251.46" y1="0" x2="-251.46" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-251.46" y="-5.08"/>
+<wire x1="-274.32" y1="12.7" x2="-274.32" y2="-4.826" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-274.32" y1="-4.826" x2="-274.32" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="-4.826" x2="-267.843" y2="-4.826" width="0.1524" layer="91"/>
+<wire x1="-267.843" y1="-4.826" x2="-267.843" y2="-4.699" width="0.1524" layer="91"/>
+<junction x="-274.32" y="-4.826"/>
 </segment>
 </net>
 <net name="VSS" class="0">
@@ -9738,6 +9796,8 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <pinref part="IC5" gate="G$1" pin="+IN"/>
 <wire x1="-187.96" y1="-7.62" x2="-187.96" y2="-15.875" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="-15.875" x2="-176.53" y2="-15.875" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="VSS"/>
+<junction x="-187.96" y="-7.62"/>
 </segment>
 <segment>
 <wire x1="-401.0025" y1="103.8225" x2="-401.0025" y2="108.9025" width="0.1524" layer="91"/>
@@ -9762,6 +9822,12 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <pinref part="J3" gate="G$1" pin="SLEEVE"/>
 <wire x1="-342.5825" y1="60.6425" x2="-342.5825" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-342.5825" y1="66.04" x2="-335.28" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VSS"/>
+<wire x1="-131.445" y1="2.8575" x2="-131.445" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-131.445" y1="10.16" x2="-132.08" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -9898,6 +9964,12 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <wire x1="-340.36" y1="205.74" x2="-325.12" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-325.12" y1="205.74" x2="-325.12" y2="207.9625" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="V+"/>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="-86.995" y1="-12.54" x2="-71.12" y2="-12.54" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="-12.54" x2="-71.12" y2="-5.3975" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$13" class="0">
 <segment>
@@ -9959,6 +10031,8 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <wire x1="-161.925" y1="-38.735" x2="-144.78" y2="-38.735" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="-38.735" x2="-144.78" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-144.78" y="-30.48"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-144.78" y1="-30.48" x2="-140.335" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10022,6 +10096,60 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-259.08" y1="165.1" x2="-259.08" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-259.08" y1="172.72" x2="-251.46" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-130.175" y1="-30.48" x2="-130.175" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="IC3" gate="G$1" pin="+IN"/>
+<wire x1="-130.175" y1="-15.24" x2="-130.175" y2="-10" width="0.1524" layer="91"/>
+<wire x1="-130.175" y1="-10" x2="-112.395" y2="-10" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-112.395" y1="-10" x2="-112.395" y2="4.445" width="0.1524" layer="91"/>
+<wire x1="-112.395" y1="4.445" x2="-103.505" y2="4.445" width="0.1524" layer="91"/>
+<junction x="-112.395" y="-10"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-131.445" y1="-4.7625" x2="-131.445" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-131.445" y1="-15.24" x2="-130.175" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-130.175" y="-15.24"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<wire x1="-86.995" y1="-10" x2="-86.995" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-86.995" y1="-10.16" x2="-80.264" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-80.264" y1="-10.16" x2="-78.74" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-10.16" x2="-78.74" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="5.08" x2="-95.885" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-95.885" y1="5.08" x2="-95.885" y2="4.445" width="0.1524" layer="91"/>
+<wire x1="-80.264" y1="-10.16" x2="-80.264" y2="-23.114" width="0.1524" layer="91"/>
+<wire x1="-80.264" y1="-23.114" x2="-121.92" y2="-23.114" width="0.1524" layer="91"/>
+<junction x="-80.264" y="-10.16"/>
+<pinref part="IC3" gate="G$1" pin="-IN"/>
+<wire x1="-112.395" y1="-15.08" x2="-121.92" y2="-15.08" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-15.08" x2="-121.92" y2="-23.114" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="-226.695" y1="0" x2="-251.46" y2="0" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="0" x2="-251.46" y2="-4.699" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="-5.08" x2="-248.285" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="-248.285" y1="-9.8425" x2="-248.285" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-251.46" y1="-5.08" x2="-251.46" y2="-4.699" width="0.1524" layer="91"/>
+<wire x1="-251.46" y1="-4.699" x2="-260.223" y2="-4.699" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
