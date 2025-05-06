@@ -8598,8 +8598,8 @@ naming: grid - package width</description>
 <attribute name="NAME" x="-139.7" y="118.11" size="1.778" layer="95" rot="MR270" align="center-left"/>
 <attribute name="VALUE" x="-137.16" y="143.51" size="1.778" layer="96" rot="MR270" align="center-left"/>
 </instance>
-<instance part="GND6" gate="1" x="-223.8375" y="105.7275" smashed="yes">
-<attribute name="VALUE" x="-226.3775" y="103.1875" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="-223.5835" y="111.5695" smashed="yes">
+<attribute name="VALUE" x="-226.1235" y="109.0295" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="-121.92" y="139.7" smashed="yes">
 <attribute name="VALUE" x="-124.46" y="137.16" size="1.778" layer="96"/>
@@ -8736,8 +8736,8 @@ naming: grid - package width</description>
 <attribute name="NAME" x="-194.056" y="158.496" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-196.596" y="159.004" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="-219.71" y="128.27" smashed="yes">
-<attribute name="VALUE" x="-222.25" y="125.73" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="-219.71" y="130.81" smashed="yes">
+<attribute name="VALUE" x="-222.25" y="128.27" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="-303.53" y="12.065" smashed="yes">
 <attribute name="NAME" x="-307.34" y="13.4366" size="1.778" layer="95"/>
@@ -8866,9 +8866,10 @@ naming: grid - package width</description>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-223.8375" y1="108.2675" x2="-223.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-223.5835" y1="114.1095" x2="-223.52" y2="127" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="NO_1"/>
-<wire x1="-213.36" y1="124.46" x2="-223.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="124.46" x2="-213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="127" x2="-223.52" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -8921,7 +8922,7 @@ naming: grid - package width</description>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="-219.71" y1="135.89" x2="-219.71" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="-219.71" y1="135.89" x2="-219.71" y2="133.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-254" y1="153.67" x2="-259.08" y2="153.67" width="0.1524" layer="91"/>
@@ -8937,8 +8938,9 @@ naming: grid - package width</description>
 <wire x1="-266.7" y1="149.86" x2="-266.7" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-266.573" y1="157.48" x2="-264.16" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="-264.16" y1="157.48" x2="-264.16" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-266.573" y1="157.48" x2="-266.573" y2="155.448" width="0.1524" layer="91"/>
+<wire x1="-266.573" y1="155.448" x2="-264.16" y2="155.448" width="0.1524" layer="91"/>
+<wire x1="-264.16" y1="155.448" x2="-264.16" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-264.16" y="154.94"/>
 </segment>
 </net>
